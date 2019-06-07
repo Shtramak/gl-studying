@@ -1,4 +1,4 @@
-package synchronization;
+package volatilе;
 
 import java.util.Scanner;
 
