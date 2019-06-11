@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class DeadLockSample {
+public class DeadLockWithSynchronizedSample {
     public static void main(String[] args) throws InterruptedException {
         DeadLockCreator creator = new DeadLockCreator();
         ExecutorService service = Executors.newFixedThreadPool(2);
