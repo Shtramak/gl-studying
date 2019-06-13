@@ -11,6 +11,7 @@
 
     <modules>
         <module>multithreading</module>
+        <module>rodionov-lecture</module>
     </modules>
 
     <properties>
@@ -27,6 +28,5 @@
             <version>5.4.2</version>
         </dependency>
     </dependencies>
-
 
 </project>
